@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 ruby RUBY_VERSION
-DECIDIM_VERSION = { github: "decidim/decidim", branch: "develop" }.freeze
+DECIDIM_VERSION = { github: "decidim/decidim", branch: "production" }.freeze
 
 gem "decidim", DECIDIM_VERSION
 gem "decidim-navbar_links", path: "."
